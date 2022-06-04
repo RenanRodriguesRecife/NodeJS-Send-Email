@@ -13,3 +13,14 @@ const transport = nodemailer.createTransport({
     }
 })
 
+
+transport.sendMail({
+    from: 'email@email.com',
+    to: 'email1, email2 ',
+    subject: 'conteudo do email',
+    html: '<h1>Oi esse mail foi enviado usado um Nodemailer<h1>',
+    text: 'texto alternativo caso o html não seja enviado'
+})
+.then((response))=> console.log('Email enviado com sucesso!')
+.catch(err) => console.log('Erro ao enviar email:',err);
+
