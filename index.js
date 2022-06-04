@@ -7,6 +7,13 @@ const transport = nodemailer.createTransport({
     //2022 - hotmail
     // host: 'smtp-mail.outlook.com',
     // port: 587,
+    //2022 - gmail
+    // host: 'smtp.gmail.com'
+    // port: 465
+    // secure: true
+    // obs: para o gmail é preciso gerar uma senha especial
+    // pois está acessando o gmail apartir de apps de terceiros
+    // http://myaccount.google.com -> segurança -> senha de app (gerar uma senha nova)
     host: '',
     port: 0,
     secure: false, //true para porta 465 e false para outras
