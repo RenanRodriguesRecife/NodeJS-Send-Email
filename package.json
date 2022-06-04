@@ -1,0 +1,23 @@
+{
+  "name": "EmailNode",
+  "version": "1.0.0",
+  "description": "Aplicação simples para enviar emails com node.js usando a lib Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanRodriguesRecife/NodeJS-Send-Email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanRodriguesRecife/NodeJS-Send-Email/issues"
+  },
+  "homepage": "https://github.com/RenanRodriguesRecife/NodeJS-Send-Email#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.5"
+  }
+}
