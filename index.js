@@ -4,10 +4,10 @@ const nodemailer = require('nodemailer');
 const transport = nodemailer.createTransport({
     //pesquise sntp + o nome do serviço de email
     //para verificar o host e a porta
-    //2022 - hotmail
+    // 2022 - hotmail
     // host: 'smtp-mail.outlook.com',
     // port: 587,
-    //2022 - gmail
+    // 2022 - gmail
     // host: 'smtp.gmail.com'
     // port: 465
     // secure: true
